@@ -29,7 +29,7 @@ do {
         prompt(`Inserisci un numero tra 1 e ${randomNums}`)
     );
     contatore++;
-} while (!mine.includes(numeroUtente) && contatore < 100 - mine.length);
+} while (!mine.includes(numeroUtente) && contatore < randomNums - mine.length);
 
 // al termine della partita devi comunicare quante volte hai giocato prima di perdere
 // ? contando anche la giocata andata male?
