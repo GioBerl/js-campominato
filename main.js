@@ -15,7 +15,7 @@ do {
     } else if (diff == 2) {
         var randomNums = 50;
     }
-} while (diff < 0 || diff > 2);
+} while (diff < 0 || diff > 2 || isNaN(diff));
 
 var mine = generaMine(16, randomNums);
 console.log(`mine generate: ${mine}`);
